@@ -150,8 +150,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .second-block .row .col-md-4 .more { width: 264px; }
   .third-block .row .col-md-4 h1 { font-size: 42px; }
   .third-block .row .col-md-8 p { font-size: 17px; }
-  .third-block .row .col-md-3 .img img { height: 72%; width: 54%; }
-  .third-block .row .col-md-3 p { font-size: 13px; margin-top: 0px; }
+  .third-block .row .col-md-3 .img img { /*height: 72%;
+width: 54%;*/ }
+  .third-block .row .col-md-3 p { /*font-size: 13px;*/ /*margin-top: 0px;*/ }
   .fourth-block .row .col-md-6 h1 { font-size: 38px; }
   .fourth-block .row .col-md-6 P { font-size: 15px; }
   .fifth-block .row .col-md-4 h1 { font-size: 44px; }
@@ -169,6 +170,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .second-block .row .col-md-4 .img { width: 200px; }
   .second-block .row .col-md-4 .more { width: 184px; }
   .second-block .portfolio a { font-size: 18px; }
+  .third-block .row .col-md-4 h1 { font-size: 42px; }
+  .third-block .row .col-md-8 p { font-size: 17px; }
+  .third-block .row .col-md-3 .img img { height: 72%; width: 75%; }
+  .third-block .row .col-md-3 p { font-size: 13px; margin-top: 0px; }
   .fourth-block .row .col-md-4 .price .img { height: 160px; }
   .fourth-block .row .col-md-4 .price .img:before { left: 35%; }
   .fourth-block .row .col-md-4 .price .desc h2 { font-size: 24px; }

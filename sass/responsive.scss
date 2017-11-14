@@ -137,14 +137,14 @@
         {
           img
           {
-            height: 72%;
-            width: 54%;
+            /*height: 72%;
+            width: 54%;*/
           }
         }
         p
         {
-          font-size: 13px;
-          margin-top: 0px;
+          /*font-size: 13px;*/
+          /*margin-top: 0px;*/
         }
       }
     }
@@ -287,6 +287,42 @@
       }
     } 
   }
+  .third-block
+  {
+    .row
+    {
+      .col-md-4
+      {
+        h1
+        {
+          font-size: 42px;
+        }
+      }
+      .col-md-8
+      {
+        p
+        {
+          font-size: 17px;
+        }
+      }
+      .col-md-3
+      {
+        .img
+        {
+          img
+          {
+            height: 72%;
+            width: 75%;
+          }
+        }
+        p
+        {
+          font-size: 13px;
+          margin-top: 0px;
+        }
+      }
+    }
+  } 
   .fourth-block
   {
     .row
