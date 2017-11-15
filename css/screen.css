@@ -44,6 +44,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .first-block .main-block .earth-row { max-width: 1920px; margin: 0 auto; }
 .first-block .main-block .arrow { position: absolute; bottom: 50px; z-index: 20; }
 .first-block .main-block .col-md-1 img { margin-top: 290px; }
+.first-block .main-block .col-md-2 .desc { top: 400px; position: absolute; }
 .first-block .main-block .col-md-2 img { margin-top: 174px; }
 .first-block .main-block .col-md-2 h2 { font-family: 'latoregular'; color: #fff; margin-top: 35px; min-width: 353px; }
 .first-block .main-block .col-md-2 a { width: 272px; height: 56px; display: block; border-radius: 25px; font-family: 'latoregular'; background: #3d0ed1; background: -webkit-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Firefox 3.6 to 15 */ background: linear-gradient(-90deg, #3d0ed1, #239ae3); /* Standard syntax (must be last) */ font-size: 18px; color: #fff; box-shadow: 0 0 10px #7a02f9; margin-top: 30px; text-transform: uppercase; }
@@ -64,9 +65,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .second-block .portfolio a:focus { text-decoration: none; letter-spacing: 5px; }
 .second-block .photo-recipes .slick-prev, .second-block .photo-recipes .slick-next { display: none; }
 .second-block .photo-recipes .slick-prev:before, .second-block .photo-recipes .slick-next:before { content: ''; }
-.second-block .photo-recipes .slick-dots li button { border: 2px solid #fff; border-radius: 50%; }
+.second-block .photo-recipes .slick-dots li { margin: 0 15px; width: 15px; height: 15px; }
+.second-block .photo-recipes .slick-dots li button { border: 2px solid #fff; border-radius: 50%; width: 15px; height: 15px; }
 .second-block .photo-recipes .slick-dots li button:before { content: ''; }
-.second-block .photo-recipes .slick-dots .slick-active button:before { opacity: 1; background: #fff; border-radius: 50%; }
+.second-block .photo-recipes .slick-dots .slick-active button:before { opacity: 1; background: #fff; border-radius: 50%; width: 15px; height: 15px; }
 .second-block .row { margin-left: 5px; }
 .second-block .row .col-md-4 { margin-bottom: 14px; }
 .second-block .row .col-md-4:hover .more { height: 106px; }

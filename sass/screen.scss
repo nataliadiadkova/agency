@@ -144,6 +144,11 @@ $image_dir: '../img/';
 		}
 		.col-md-2
 		{
+			.desc
+			{
+				top: 400px;
+   				position: absolute;
+			}
 			img
 			{
 				margin-top: 174px;
@@ -273,10 +278,15 @@ $image_dir: '../img/';
 		{
 			li
 			{
+				margin: 0 15px;
+				width: 15px;
+    			height: 15px;
 				button
 				{
 					border: 2px solid $white;
 					border-radius: 50%;
+					width: 15px;
+    				height: 15px;
 					&:before
 					{
 						content: '';
@@ -292,6 +302,8 @@ $image_dir: '../img/';
 					    opacity: 1;
 					    background: #fff;
 					    border-radius: 50%;
+					    width: 15px;
+    					height: 15px;
 					}
 				}
 			}
