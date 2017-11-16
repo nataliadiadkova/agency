@@ -48,11 +48,18 @@ width: 54%;*/ }
   .first-block .navbar-toggle .icon-bar { background: #fff; }
   .first-block .header-top .navbar-toggle { margin-top: 8px; }
   .first-block .header-height .navbar-toggle { margin-top: 38px; }
-  .first-block .navbar .collapse.in { background: #000; }
-  .first-block .navbar .collapse.in ul li { display: inline; }
-  .first-block .navbar .collapse.in ul li a { padding: 15px 0; }
-  .first-block .navbar .navbar-nav > li { width: 102px; }
-  .first-block .navbar .navbar-nav > li > a { font-size: 12px; }
+  .first-block .navbar .collapse.in { background: #0e194c; position: absolute; right: 0px; padding: 0px 20px; border: none; }
+  .first-block .navbar .collapse.in .navbar-nav { float: right; }
+  .first-block .navbar .collapse.in ul { position: relative; right: 0px; width: 117px; float: right; padding: 0 10px; }
+  .first-block .navbar .collapse.in ul > li { /*display: block;
+position: relative;*/ /*&:nth-child(6)
+{ padding: 15px 0;   
+}*/ }
+  .first-block .navbar .navbar-nav { float: right; }
+  .first-block .navbar .navbar-nav > li { width: 102px; float: unset; }
+  .first-block .navbar .navbar-nav > li:nth-child(6) { padding: 0 30px; }
+  .first-block .navbar .navbar-nav > li > a { padding: 10px 0; font-size: 12px; }
+  .first-block .navbar .navbar-nav > li select { background: #0e194c; }
   .first-block .main-block .earth-row { display: none; }
   .second-block .row .col-md-6 { padding-top: 50px; }
   .second-block .row .col-md-6 h1 { font-size: 30px; letter-spacing: 6px; }
