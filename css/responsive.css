@@ -22,6 +22,7 @@ width: 54%;*/ }
   .footer-block .col-md-2 { width: 20%; } }
 @media only screen and (max-width: 800px) { .first-block .navbar .navbar-nav > li { width: 102px; }
   .first-block .navbar .navbar-nav > li > a { font-size: 10px; }
+  .first-block .navbar .navbar-nav > li select { font-size: 10px; }
   .first-block .navbar .navbar-header .navbar-brand > img { width: 75px; padding-top: 5px; }
   .first-block .main-block .col-md-8 .earth-block img { left: -135px; }
   .first-block .main-block .col-md-8 .earth-block video { left: 153px; }

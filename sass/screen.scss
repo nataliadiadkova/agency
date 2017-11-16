@@ -142,12 +142,14 @@ $image_dir: '../img/';
 				    font-family: 'latoregular';
 				    text-transform: uppercase;
 				    border: none;
-				    font-size: 12px;
+				    font-size: 15px;
 				    -webkit-appearance: none;
 				    -moz-appearance:    none;
 				    appearance:         none;
 				    width: 32px;
     				padding-left: 5px;
+				    @include transition(0.5s linear);
+    				
 				    /*border-bottom: 1px solid #ddd;*/
     			}
     			&:nth-child(6)
