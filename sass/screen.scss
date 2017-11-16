@@ -266,6 +266,7 @@ $image_dir: '../img/';
 {
 	background: url( $image_dir + 'bg-second.png' ) no-repeat center top;
 	padding-bottom: 100px;
+	background-size: cover;
 	.row
 	{
 		.col-md-6
