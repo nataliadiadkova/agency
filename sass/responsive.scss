@@ -54,7 +54,7 @@
       {
         >li
         {
-          width: 160px;
+          width: 150px;
         }
       }
     }
@@ -267,6 +267,11 @@
           font-size: 17px;
         }
       }
+      .col-sm-6
+      {
+        width: 30%;
+        margin-left: 11.5%;
+      }
       .col-md-4
       {
         .img 
@@ -453,6 +458,11 @@
           font-size: 14px;
         }
       }
+      .col-sm-6 
+      {
+        /*width: 50%;
+        margin-left: 0;*/
+      }
       .col-md-4
       {
         .img 
@@ -587,7 +597,7 @@
   }
   .second-block
   {
-    background-size: 245%;
+    background-size: 340%;
     .row
     {
       .col-xs-offset-2
@@ -618,20 +628,25 @@
           font-size: 10px;
         }
       }
+      .col-sm-6
+      {
+        width: 38%;
+        margin-left: 7.5%;
+      }
       .col-md-4
       {
         padding: 0;
         &:hover .more
         {
-            height: 84px;
+            height: 74px;
         }
         .img 
         {
-          width: 100px;
+          width: 130px;
         }
         .more
         {
-          width: 84px;
+          width: 115px;
           a
           {
             p
@@ -800,7 +815,7 @@
 {
   .second-block
   {
-    background-size: 245%;
+    background-size: 357%;
     padding-bottom: 14px;
     .row
     {
@@ -832,6 +847,11 @@
           font-size: 10px;
         }
       }
+      .col-sm-6
+      {
+        width: 48%;
+        margin-left: 0.5%;
+      }
       .col-md-4
       {
         padding: 0;
@@ -841,12 +861,12 @@
         }
         .img 
         {
-          width: 73px;
+          width: 110px;
           padding: 0;
         }
         .more
         {
-          width: 74px;
+          width: 110px;
           margin: 0;
           a
           {
@@ -989,7 +1009,7 @@
         }
         .price
         {
-          font-size: 14px;
+          font-size: 12px;
           height: 35px;
           width: 85px;
           border-radius: 5px;

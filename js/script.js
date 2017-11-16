@@ -34,7 +34,7 @@ $(document).ready(function(){
 $( function() {
     $( "#slider-range" ).slider({
         range: true,
-        min: 200,
+        min: 250,
         max: 9000,
         values: [ 75, 300 ],
         slide: function( event, ui ) {

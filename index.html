@@ -13,15 +13,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
   </head>
-  <!-- HelloPreload http://hello-site.ru/preloader/ -->
-<style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #1F3A93 url(http://hello-site.ru//main/images/preloads/rings.svg) center center no-repeat;background-size:73px;}</style>
-<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
-<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},200);};</script>
-<!-- HelloPreload http://hello-site.ru/preloader/ -->
-
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
+<div id="hellopreloader">
+  <div id="hellopreloader_preload"></div>
+  <p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p>
+</div>
 <div class="container-fluid first-block">
   <nav class="navbar navbar-fixed-top header-height" id="menu">
     <div class="container">
@@ -40,7 +37,15 @@
           <li><a href="#portfolio">портфолио</a></li>
           <li><a href="#process">процесс</a></li>
           <li><a href="#prototype">прототип</a></li>
-          <li ><a href="#application">заявка</a></li>
+          <li><a href="#application">заявка</a></li>
+          <li>
+            <select>
+              <option>ru</option>
+              <option>ua</option>
+              <option>usa</option>
+              <option>fr</option>
+            </select>
+          </li>
         </ul>
       </div>
     </div>
@@ -82,7 +87,7 @@
       </div>
     </div>
     <div class="row portfolio">
-      <div class="col-md-4 col-sm-3 col-xs-3 col-md-offset-0 col-sm-offset-1">
+      <div class="col-md-3 col-sm-3 col-xs-3 col-md-offset-1 col-sm-offset-1">
         <a href="#">
           <p>лендинги</p>
         </a>
@@ -99,10 +104,10 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 col-xs-12">
+      <div class="col-md-12 col-xs-12 text-center">
         <div class="photo-recipes">
           <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-4 revealator-slideup revealator-delay">
+            <div class="col-md-4 col-sm-6 col-xs-12 revealator-slideup revealator-delay">
               <div class="img">
                 <img src="img/forester.png" alt="forester">
               </div>
@@ -111,7 +116,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4 revealator-slideup revealator-delay2">
+            <div class="col-md-4 col-sm-6 col-xs-12 revealator-slideup revealator-delay2">
               <div class="img">
                 <img src="img/grovo.png" alt="grovo">
               </div>
@@ -120,7 +125,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4 revealator-slideup revealator-delay3">
+            <div class="col-md-4 col-sm-6 col-xs-12 revealator-slideup revealator-delay3">
               <div class="img">
                 <img src="img/party.png" alt="party">
               </div>
@@ -129,7 +134,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4 revealator-slideup revealator-delay4">
+            <div class="col-md-4 col-sm-6 col-xs-6 revealator-slideup revealator-delay4">
               <div class="img">
                 <img src="img/chayhona.png" alt="chayhona">
               </div>
@@ -138,7 +143,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4 revealator-slideup revealator-delay5">
+            <div class="col-md-4 col-sm-6 col-xs-6 revealator-slideup revealator-delay5">
               <div class="img">
                 <img src="img/macho.png" alt="macho">
               </div>
@@ -147,7 +152,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4 revealator-slideup revealator-delay6">
+            <div class="col-md-4 col-sm-6 col-xs-6 revealator-slideup revealator-delay6">
               <div class="img">
                 <img src="img/forester.png" alt="forester">
               </div>
@@ -158,7 +163,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="img">
                 <img src="img/forester.png" alt="forester">
               </div>
@@ -167,7 +172,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="img">
                 <img src="img/grovo.png" alt="grovo">
               </div>
@@ -176,7 +181,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="img">
                 <img src="img/party.png" alt="party">
               </div>
@@ -185,7 +190,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="img">
                 <img src="img/chayhona.png" alt="chayhona">
               </div>
@@ -194,7 +199,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="img">
                 <img src="img/macho.png" alt="macho">
               </div>
@@ -203,7 +208,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="img">
                 <img src="img/forester.png" alt="forester">
               </div>
@@ -214,7 +219,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="img">
                 <img src="img/forester.png" alt="forester">
               </div>
@@ -223,7 +228,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="img">
                 <img src="img/grovo.png" alt="grovo">
               </div>
@@ -232,7 +237,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <div class="img">
                 <img src="img/party.png" alt="party">
               </div>
@@ -241,7 +246,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="img">
                 <img src="img/chayhona.png" alt="chayhona">
               </div>
@@ -250,7 +255,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="img">
                 <img src="img/macho.png" alt="macho">
               </div>
@@ -259,7 +264,7 @@
                 <a href="#"><img src="img/more.png" alt="more"></a>  
               </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-4">
+            <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="img">
                 <img src="img/forester.png" alt="forester">
               </div>
@@ -560,5 +565,6 @@
     <script type="text/javascript" charset="utf-8" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="js/fm.revealator.jquery.js"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},200);};</script>
   </body>
 </html>
