@@ -16,16 +16,12 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
 
-@font-face { font-family: "latobold"; src: url("../fonts/latobold.ttf"); }
-@font-face { font-family: "latoregular"; src: url("../fonts/latoregular.ttf"); }
-@font-face { font-family: "latolight"; src: url("../fonts/latolight.ttf"); }
-@font-face { font-family: "latoheavy"; src: url("../fonts/latoheavy.ttf"); }
-@font-face { font-family: "latosemibold"; src: url("../fonts/latosemibold.ttf"); }
-@font-face { font-family: "happyfoxcondensed"; src: url("../fonts/HappyFoxCondensed.ttf"); }
-@font-face { font-family: "HelveticaCECond"; src: url("../fonts/HelveticaCE-Cond.otf"); }
-@font-face { font-family: "latomedium"; src: url("../fonts/LatoMedium.ttf"); }
-@font-face { font-family: "latoblack"; src: url("../fonts/LatoBlack.ttf"); }
-@font-face { font-family: "latoblackitalic"; src: url("../fonts/LatoBlackItalic.ttf"); }
+@font-face { font-family: "lato"; src: url("../fonts/lato/Lato-Medium.ttf"); font-weight: 500; }
+@font-face { font-family: "lato"; src: url("../fonts/lato/Lato-Black.ttf"); font-weight: 600; }
+@font-face { font-family: "lato"; src: url("../fonts/lato/Lato-BlackItalic.ttf"); font-weight: 600; font-style: italic; }
+@font-face { font-family: "lato"; src: url("../fonts/lato/Lato-Regular.ttf"); font-weight: normal; }
+@font-face { font-family: "lato"; src: url("../fonts/lato/Lato-Light.ttf"); font-weight: 200; }
+@font-face { font-family: "lato"; src: url("../fonts/lato/Lato-Bold.ttf"); font-weight: bold; }
 #hellopreloader > p { display: none; }
 
 #hellopreloader_preload { display: block; position: fixed; z-index: 99999; top: 0; left: 0; width: 100%; height: 100%; min-width: 320px; background: #1F3A93 url(http://hello-site.ru//main/images/preloads/rings.svg) center center no-repeat; background-size: 73px; }
@@ -42,10 +38,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .first-block .header-height .navbar-nav > li:nth-child(6) { padding: 45px 0; }
 .first-block .header-height .navbar-nav > li > a { padding: 45px 0; }
 .first-block .navbar .navbar-nav > li { width: 180px; }
-.first-block .navbar .navbar-nav > li > a { font-family: 'latoregular'; font-size: 16px; color: #fff; letter-spacing: 2px; text-transform: uppercase; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; text-align: center; }
+.first-block .navbar .navbar-nav > li > a { font-family: 'lato', Arial; font-weight: normal; font-size: 16px; color: #fff; letter-spacing: 2px; text-transform: uppercase; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; text-align: center; }
 .first-block .navbar .navbar-nav > li > a:hover, .first-block .navbar .navbar-nav > li > a active { background: none; letter-spacing: 7px; }
 .first-block .navbar .navbar-nav > li > a:focus { background: none; letter-spacing: 7px; }
-.first-block .navbar .navbar-nav > li select { background: #1b336d; color: #fff; font-family: 'latoregular'; text-transform: uppercase; border: none; font-size: 15px; -webkit-appearance: none; -moz-appearance: none; appearance: none; width: 39px; padding-left: 5px; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; /*border-bottom: 1px solid #ddd;*/ }
+.first-block .navbar .navbar-nav > li select { background: #1b336d; color: #fff; font-family: 'lato', Arial; font-weight: normal; text-transform: uppercase; border: none; font-size: 15px; -webkit-appearance: none; -moz-appearance: none; appearance: none; width: 39px; padding-left: 5px; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; /*border-bottom: 1px solid #ddd;*/ }
 .first-block .navbar .navbar-nav > li:nth-child(6) { width: 47px; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; }
 .first-block .row .col-md-12 { background: url("../img/bg-first1.png") no-repeat center top; height: 500px; }
 .first-block .main-block { margin-top: 113px; max-height: 930px; /*background: url( $image_dir + 'bg-first1.png' ) no-repeat center top;;*/ }
@@ -54,8 +50,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .first-block .main-block .col-md-1 img { margin-top: 290px; }
 .first-block .main-block .col-md-2 .desc { top: 400px; position: absolute; }
 .first-block .main-block .col-md-2 img { margin-top: 174px; }
-.first-block .main-block .col-md-2 h2 { font-family: 'latoregular'; color: #fff; margin-top: 35px; min-width: 353px; }
-.first-block .main-block .col-md-2 a { width: 272px; height: 56px; display: block; border-radius: 25px; font-family: 'latoregular'; background: #3d0ed1; background: -webkit-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Firefox 3.6 to 15 */ background: linear-gradient(-90deg, #3d0ed1, #239ae3); /* Standard syntax (must be last) */ font-size: 18px; color: #fff; box-shadow: 0 0 10px #7a02f9; margin-top: 30px; text-transform: uppercase; }
+.first-block .main-block .col-md-2 h2 { font-family: 'lato', Arial; font-weight: normal; color: #fff; margin-top: 35px; min-width: 353px; }
+.first-block .main-block .col-md-2 a { width: 272px; height: 56px; display: block; border-radius: 25px; font-family: 'lato', Arial; font-weight: normal; background: #3d0ed1; background: -webkit-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Firefox 3.6 to 15 */ background: linear-gradient(-90deg, #3d0ed1, #239ae3); /* Standard syntax (must be last) */ font-size: 18px; color: #fff; box-shadow: 0 0 10px #7a02f9; margin-top: 30px; text-transform: uppercase; }
 .first-block .main-block .col-md-2 a:hover { box-shadow: 0 0 25px #7a02f9; text-decoration: none; letter-spacing: 5px; }
 .first-block .main-block .col-md-2 a span { padding-top: 15px; display: block; text-align: center; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; }
 .first-block .main-block .col-md-7, .first-block .main-block .col-md-8, .first-block .main-block .col-md-9 { padding: 0; }
@@ -65,10 +61,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .second-block { background: url("../img/bg-second.png") no-repeat center top; padding-bottom: 100px; background-size: cover; }
 .second-block .row .col-md-6 { color: #fff; }
-.second-block .row .col-md-6 h1 { font-family: 'latoregular'; font-size: 48px; text-transform: uppercase; letter-spacing: 15px; margin: 0 55px; border-bottom: 2px solid #aaaeba; padding-bottom: 15px; }
-.second-block .row .col-md-6 p { font-size: 18px; font-family: "latoregular"; margin-top: 40px; }
+.second-block .row .col-md-6 h1 { font-family: 'lato', Arial; font-weight: normal; font-size: 48px; text-transform: uppercase; letter-spacing: 15px; margin: 0 55px; border-bottom: 2px solid #aaaeba; padding-bottom: 15px; }
+.second-block .row .col-md-6 p { font-size: 18px; font-family: "lato", Arial; font-weight: normal; margin-top: 40px; }
 .second-block .portfolio { margin-top: 35px; }
-.second-block .portfolio a { font-family: 'latoregular'; font-size: 24px; text-transform: uppercase; color: #fff; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; }
+.second-block .portfolio a { font-family: 'lato', Arial; font-weight: normal; font-size: 24px; text-transform: uppercase; color: #fff; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; }
 .second-block .portfolio a:hover, .second-block .portfolio a active { text-decoration: none; letter-spacing: 5px; }
 .second-block .portfolio a:focus { text-decoration: none; letter-spacing: 5px; }
 .second-block .photo-recipes .slick-prev, .second-block .photo-recipes .slick-next { display: none; }
@@ -85,23 +81,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .second-block .row .col-md-4 .more { width: 324px; margin: 0 auto; margin: 8px; position: absolute; bottom: 0; /*height: 106px;*/ background: rgba(38, 109, 254, 0.88); overflow: hidden; height: 0; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; }
 .second-block .row .col-md-4 .more a { text-decoration: none; }
 .second-block .row .col-md-4 .more a:hover { text-decoration: none; letter-spacing: 3px; }
-.second-block .row .col-md-4 .more a p { font-family: 'latolight'; font-size: 18px; color: #fff; margin-top: 28px; text-transform: uppercase; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; }
+.second-block .row .col-md-4 .more a p { font-family: 'lato', Arial; font-weight: 200; font-size: 18px; color: #fff; margin-top: 28px; text-transform: uppercase; -moz-transition: 0.5s linear; -o-transition: 0.5s linear; -webkit-transition: 0.5s linear; transition: 0.5s linear; }
 .second-block .row .col-md-4 .more a img { margin: 0 auto; }
 
 .third-block { background: url("../img/bg-third.png") no-repeat center top; padding-top: 125px; padding-bottom: 124px; }
 .third-block .row .col-md-4 { color: #fff; /*margin-bottom: 67px;*/ }
-.third-block .row .col-md-4 h1 { font-family: 'latoregular'; font-size: 48px; text-transform: uppercase; letter-spacing: 15px; /*margin: 0 145px;*/ border-bottom: 2px solid #aaaeba; padding-bottom: 15px; }
+.third-block .row .col-md-4 h1 { font-family: 'lato', Arial; font-weight: normal; font-size: 48px; text-transform: uppercase; letter-spacing: 15px; /*margin: 0 145px;*/ border-bottom: 2px solid #aaaeba; padding-bottom: 15px; }
 .third-block .row .col-md-8 { color: #fff; margin-bottom: 37px; margin-top: 40px; }
-.third-block .row .col-md-8 p { font-size: 18px; font-family: "latoregular"; margin-top: 20px; }
+.third-block .row .col-md-8 p { font-size: 18px; font-family: "lato", Arial; font-weight: normal; margin-top: 20px; }
 .third-block .row .col-md-3 { height: 210px; margin-top: 70px; }
-.third-block .row .col-md-3 p { font-family: 'latoregular'; font-size: 18px; color: #fff; margin-top: 20px; }
+.third-block .row .col-md-3 p { font-family: 'lato', Arial; font-weight: normal; font-size: 18px; color: #fff; margin-top: 20px; }
 .third-block .row .col-md-3 .img { max-width: 130px; margin: 0 auto; height: 135px; }
 .third-block .row .col-md-3 .img img { width: 100%; }
 
 .fourth-block { background: url("../img/bg-fourth.png") no-repeat center top; padding-top: 70px; padding-bottom: 100px; }
 .fourth-block .row .col-md-6 { color: #fff; margin-bottom: 67px; }
-.fourth-block .row .col-md-6 h1 { font-family: 'latoregular'; font-size: 48px; text-transform: uppercase; letter-spacing: 15px; margin: 0 70px; border-bottom: 2px solid #aaaeba; padding-bottom: 15px; }
-.fourth-block .row .col-md-6 p { font-size: 18px; font-family: "latoregular"; margin-top: 40px; }
+.fourth-block .row .col-md-6 h1 { font-family: 'lato', Arial; font-weight: normal; font-size: 48px; text-transform: uppercase; letter-spacing: 15px; margin: 0 70px; border-bottom: 2px solid #aaaeba; padding-bottom: 15px; }
+.fourth-block .row .col-md-6 p { font-size: 18px; font-family: "lato", Arial; font-weight: normal; margin-top: 40px; }
 .fourth-block .row .col-md-4 .light .desc { background: -webkit-linear-gradient(45deg, #cf6a81, #e9a08c); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #cf6a81, #e9a08c); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #cf6a81, #e9a08c); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #cf6a81, #e9a08c); /* Standard syntax (must be last) */ }
 .fourth-block .row .col-md-4 .light .img:before { content: ''; position: absolute; background: #fff; width: 70px; height: 70px; border-radius: 50%; bottom: -35px; left: 40%; background-repeat: no-repeat; background-position-x: 16px; background-position-y: 18px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); z-index: 10; background-image: url(../img/paper-plane.png); }
 .fourth-block .row .col-md-4 .comfort .desc { background: -webkit-linear-gradient(45deg, #5d5dbc, #8bb5e7); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #5d5dbc, #8bb5e7); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #5d5dbc, #8bb5e7); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #5d5dbc, #8bb5e7); /* Standard syntax (must be last) */ }
@@ -116,36 +112,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .fourth-block .row .col-md-4 .price .img .EDGE-432066938 { border-top-right-radius: 20px; border-top-left-radius: 20px; position: absolute !important; top: 0; /*display: block;*/ }
 .fourth-block .row .col-md-4 .price .img .edgeLoad-EDGE-432066938 { visibility: hidden; }
 .fourth-block .row .col-md-4 .price .desc { height: 413px; color: #fff; /*background: #e19189;*/ border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; }
-.fourth-block .row .col-md-4 .price .desc h2 { margin: 0; font-family: "latoblack"; font-style: italic; padding-top: 45px; }
-.fourth-block .row .col-md-4 .price .desc h4 { font-family: 'latobold'; }
-.fourth-block .row .col-md-4 .price .desc ul { text-align: left; list-style-type: disc; margin-left: 80px; font-family: 'latobold'; font-size: 17px; }
-.fourth-block .row .col-md-4 .price .order { position: absolute; bottom: -30px; left: 15%; width: 70%; height: 60px; border-radius: 27px; border: none; background: -webkit-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Firefox 3.6 to 15 */ background: linear-gradient(-90deg, #3d0ed1, #239ae3); /* Standard syntax (must be last) */ font-family: 'latomedium'; font-size: 20px; color: #fff; z-index: 4; text-transform: uppercase; letter-spacing: 2px; padding-top: 2px; -moz-transition: 0.3s linear; -o-transition: 0.3s linear; -webkit-transition: 0.3s linear; transition: 0.3s linear; }
+.fourth-block .row .col-md-4 .price .desc h2 { margin: 0; font-family: "lato", Arial; font-weight: 600; font-style: italic; padding-top: 45px; }
+.fourth-block .row .col-md-4 .price .desc h4 { font-family: 'lato', Arial; font-weight: bold; }
+.fourth-block .row .col-md-4 .price .desc ul { text-align: left; list-style-type: disc; margin-left: 80px; font-family: 'lato', Arial; font-weight: bold; font-size: 17px; }
+.fourth-block .row .col-md-4 .price .order { position: absolute; bottom: -30px; left: 15%; width: 70%; height: 60px; border-radius: 27px; border: none; background: -webkit-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Firefox 3.6 to 15 */ background: linear-gradient(-90deg, #3d0ed1, #239ae3); /* Standard syntax (must be last) */ font-family: 'lato', Arial; font-weight: 500; font-size: 20px; color: #fff; z-index: 4; text-transform: uppercase; letter-spacing: 2px; padding-top: 2px; -moz-transition: 0.3s linear; -o-transition: 0.3s linear; -webkit-transition: 0.3s linear; transition: 0.3s linear; }
 .fourth-block .row .col-md-4 .price .order:hover { box-shadow: 0 0 30px rgba(178, 7, 250, 0.7); width: 80%; left: 10%; /*letter-spacing: 5px;*/ height: 65px; padding-top: 2px; }
 .fourth-block .row .col-md-4 .price .opacity-price { position: absolute; top: 0; left: 0; background: #fff; width: 100%; height: 100%; border-radius: 20px; opacity: 0.2; -moz-transition: 0.1s linear; -o-transition: 0.1s linear; -webkit-transition: 0.1s linear; transition: 0.1s linear; }
 
 .fifth-block { background: url("../img/bg-fifth.png") no-repeat center top; padding-top: 70px; padding-bottom: 35px; }
 .fifth-block .row .col-md-4 { color: #fff; /*margin-bottom: 67px;*/ }
-.fifth-block .row .col-md-4 h1 { font-family: 'latoregular'; font-size: 48px; text-transform: uppercase; letter-spacing: 15px; /*margin: 0 145px;*/ border-bottom: 2px solid #aaaeba; padding-bottom: 15px; }
+.fifth-block .row .col-md-4 h1 { font-family: 'lato', Arial; font-weight: normal; font-size: 48px; text-transform: uppercase; letter-spacing: 15px; /*margin: 0 145px;*/ border-bottom: 2px solid #aaaeba; padding-bottom: 15px; }
 .fifth-block .row .col-md-8 { color: #fff; margin-bottom: 37px; }
-.fifth-block .row .col-md-8 p { font-size: 18px; font-family: "latoregular"; margin-top: 20px; }
+.fifth-block .row .col-md-8 p { font-size: 18px; font-family: "lato", Arial; font-weight: normal; margin-top: 20px; }
 .fifth-block .row .col-md-5 .form-group { margin-left: 30px; margin-right: 20px; }
-.fifth-block .row .col-md-5 label { font-weight: 100; font-family: 'latoregular'; color: #fff; font-size: 18px; margin-left: 22px; display: block; }
+.fifth-block .row .col-md-5 label { font-weight: 100; font-family: 'lato', Arial; font-weight: normal; color: #fff; font-size: 18px; margin-left: 22px; display: block; }
 .fifth-block .row .col-md-5 select { -webkit-appearance: none; -moz-appearance: none; background-image: url(../img/arrow-select.png); background-repeat: no-repeat; background-position: right; background-position-x: 96%; }
-.fifth-block .row .col-md-5 .form-control { height: 40px; font-family: 'latoregular'; font-size: 18px; border: none; }
-.fifth-block .row .col-md-5 .price { font-weight: 100; font-family: 'latoregular'; font-size: 18px; height: 40px; width: 150px; border-radius: 5px; padding-left: 20px; }
+.fifth-block .row .col-md-5 .form-control { height: 40px; font-family: 'lato', Arial; font-weight: normal; font-size: 18px; border: none; }
+.fifth-block .row .col-md-5 .price { font-weight: 100; font-family: 'lato', Arial; font-weight: normal; font-size: 18px; height: 40px; width: 150px; border-radius: 5px; padding-left: 20px; }
 .fifth-block .row .col-md-5 #slider-range { width: 54%; display: inline-block; margin-left: 30px; border: none; height: 3px; }
 .fifth-block .row .col-md-5 #slider-range .ui-widget-header { background: #359392; }
 .fifth-block .row .col-md-5 #slider-range .ui-state-default, .fifth-block .row .col-md-5 #slider-range .ui-widget-content .ui-state-default, .fifth-block .row .col-md-5 #slider-range .ui-widget-header .ui-state-default { width: 23px; height: 23px; border-radius: 50%; background: #fff; top: -10px; border: none; }
 .fifth-block .row .col-md-5 #slider-range .ui-state-default:hover, .fifth-block .row .col-md-5 #slider-range .ui-state-default focus, .fifth-block .row .col-md-5 #slider-range .ui-widget-content .ui-state-default:hover, .fifth-block .row .col-md-5 #slider-range .ui-widget-content .ui-state-default focus, .fifth-block .row .col-md-5 #slider-range .ui-widget-header .ui-state-default:hover, .fifth-block .row .col-md-5 #slider-range .ui-widget-header .ui-state-default focus { width: 23px; height: 23px; background: #a6daff; border: 4px solid #fff; }
 .fifth-block .row .col-md-5 textarea { width: 100%; height: 61px; border-radius: 5px; margin-top: 4px; }
 .fifth-block .row .col-md-4 { padding-top: 30px; }
-.fifth-block .row .col-md-4 .order { width: 272px; border-radius: 25px; height: 60px; border: none; background: -webkit-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Firefox 3.6 to 15 */ background: linear-gradient(-90deg, #3d0ed1, #239ae3); /* Standard syntax (must be last) */ font-family: 'latomedium'; font-size: 20px; color: #fff; z-index: 4; -moz-transition: 0.3s linear; -o-transition: 0.3s linear; -webkit-transition: 0.3s linear; transition: 0.3s linear; text-transform: uppercase; letter-spacing: 2px; padding-top: 2px; }
+.fifth-block .row .col-md-4 .order { width: 272px; border-radius: 25px; height: 60px; border: none; background: -webkit-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(-90deg, #3d0ed1, #239ae3); /* For Firefox 3.6 to 15 */ background: linear-gradient(-90deg, #3d0ed1, #239ae3); /* Standard syntax (must be last) */ font-family: 'lato', Arial; font-weight: 500; font-size: 20px; color: #fff; z-index: 4; -moz-transition: 0.3s linear; -o-transition: 0.3s linear; -webkit-transition: 0.3s linear; transition: 0.3s linear; text-transform: uppercase; letter-spacing: 2px; padding-top: 2px; }
 .fifth-block .row .col-md-4 .order:hover { box-shadow: 0 0 30px rgba(178, 7, 250, 0.7); /*letter-spacing: 5px;*/ }
 
 .footer-block { background: url("../img/bg-footer.png") no-repeat center top; padding-top: 150px; /*padding-bottom: 18px;*/ }
 .footer-block .col-md-2 a { padding-left: 15px; }
-.footer-block .col-md-2 p { font-family: 'latoregular'; color: #fff; font-size: 12px; }
-.footer-block .col-md-1 p { font-family: 'latoregular'; color: #fff; font-size: 18px; }
+.footer-block .col-md-2 p { font-family: 'lato', Arial; font-weight: normal; color: #fff; font-size: 12px; }
+.footer-block .col-md-1 p { font-family: 'lato', Arial; font-weight: normal; color: #fff; font-size: 18px; }
 .footer-block .icons { margin-bottom: 20px; }
 
 @media only screen and (max-width: 1024px) { .first-block .navbar .navbar-nav > li { width: 150px; }

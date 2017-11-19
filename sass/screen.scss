@@ -117,7 +117,8 @@ $image_dir: '../img/';
     			width: 180px;
     			>a
     			{
-    				font-family: 'latoregular';
+    				font-family: 'lato', Arial;
+    				font-weight: normal;
 				    font-size: 16px;
 				    color: $white;
 				    letter-spacing: 2px;
@@ -139,7 +140,8 @@ $image_dir: '../img/';
     			{
     				background: #1b336d;
 				    color: #fff;
-				    font-family: 'latoregular';
+				    font-family: 'lato', Arial;
+				    font-weight: normal;
 				    text-transform: uppercase;
 				    border: none;
 				    font-size: 15px;
@@ -204,7 +206,8 @@ $image_dir: '../img/';
 			}
 			h2
 			{
-				font-family: 'latoregular';
+				font-family: 'lato', Arial;
+				font-weight: normal;
     			color: $white;
     			margin-top: 35px;
     			min-width: 353px;
@@ -215,7 +218,8 @@ $image_dir: '../img/';
 			    height: 56px;
 			    display: block;
 			    border-radius: 25px;
-			    font-family: 'latoregular';
+			    font-family: 'lato', Arial;
+			    font-weight: normal;
 			    background: #3d0ed1;   
 			    @include gradient(-90deg, #3d0ed1, #239ae3);      
 			    font-size: 18px;
@@ -276,7 +280,8 @@ $image_dir: '../img/';
 			color: $white;
 			h1
 			{
-				font-family: 'latoregular';
+				font-family: 'lato', Arial;
+				font-weight: normal;
 			    font-size: 48px;
 			    text-transform: uppercase;
 			    letter-spacing: 15px;
@@ -287,7 +292,8 @@ $image_dir: '../img/';
 			p
 			{
 				font-size: 18px;
-			    font-family: "latoregular";
+			    font-family: "lato", Arial;
+			    font-weight: normal;
 			    margin-top: 40px;
 			}
 		}
@@ -297,7 +303,8 @@ $image_dir: '../img/';
 		margin-top: 35px;
 		a
 		{
-			font-family: 'latoregular';
+			font-family: 'lato', Arial;
+			font-weight: normal;
 		    font-size: 24px;
 		    text-transform: uppercase;
 		    color: $white;
@@ -402,7 +409,8 @@ $image_dir: '../img/';
 					}
 					p
 					{
-						font-family: 'latolight';
+						font-family: 'lato', Arial;
+						font-weight: 200;
 					    font-size: 18px;
 					    color: $white;
 					    margin-top: 28px;
@@ -434,7 +442,8 @@ $image_dir: '../img/';
 			/*margin-bottom: 67px;*/
 			h1
 			{
-				font-family: 'latoregular';
+				font-family: 'lato', Arial;
+				font-weight: normal;
 			    font-size: 48px;
 			    text-transform: uppercase;
 			    letter-spacing: 15px;
@@ -451,7 +460,8 @@ $image_dir: '../img/';
 			p
 			{
 				font-size: 18px;
-			    font-family: "latoregular";
+			    font-family: "lato", Arial;
+			    font-weight: normal;
 			    margin-top: 20px;
 			}
 		}
@@ -461,7 +471,8 @@ $image_dir: '../img/';
 			margin-top: 70px;
 			p
 			{
-				font-family: 'latoregular';
+				font-family: 'lato', Arial;
+				font-weight: normal;
 			    font-size: 18px;
 			    color: #fff;
 			    margin-top: 20px;
@@ -492,7 +503,8 @@ $image_dir: '../img/';
 			margin-bottom: 67px;
 			h1
 			{
-				font-family: 'latoregular';
+				font-family: 'lato', Arial;
+				font-weight: normal;
 			    font-size: 48px;
 			    text-transform: uppercase;
 			    letter-spacing: 15px;
@@ -503,7 +515,8 @@ $image_dir: '../img/';
 			p
 			{
 				font-size: 18px;
-			    font-family: "latoregular";
+			    font-family: "lato", Arial;
+			    font-weight: normal;
 			    margin-top: 40px;
 			}
 		}
@@ -640,20 +653,23 @@ $image_dir: '../img/';
 					h2
 					{
 						margin: 0;
-    					font-family: "latoblack";
+    					font-family: "lato", Arial;
+    					font-weight: 600;
     					font-style: italic;
     					padding-top: 45px;
 					}
 					h4
 					{
-						font-family: 'latobold';
+						font-family: 'lato', Arial;
+						font-weight: bold;
 					}
 					ul
 					{
 						text-align: left;
 						list-style-type: disc;
 					    margin-left: 80px;
-					    font-family: 'latobold';
+					    font-family: 'lato', Arial;
+					    font-weight: bold;
 					    font-size: 17px;
 					}
 				}
@@ -667,7 +683,8 @@ $image_dir: '../img/';
 				    border-radius: 27px;
 				    border: none;
 			    	@include gradient(-90deg, #3d0ed1, #239ae3); 
-			    	font-family: 'latomedium';
+			    	font-family: 'lato', Arial;
+			    	font-weight: 500;
 				    font-size: 20px;
 				    color: #fff;  
 				    z-index: 4;
@@ -714,7 +731,8 @@ $image_dir: '../img/';
 			/*margin-bottom: 67px;*/
 			h1
 			{
-				font-family: 'latoregular';
+				font-family: 'lato', Arial;
+				font-weight: normal;
 			    font-size: 48px;
 			    text-transform: uppercase;
 			    letter-spacing: 15px;
@@ -730,7 +748,8 @@ $image_dir: '../img/';
 			p
 			{
 				font-size: 18px;
-			    font-family: "latoregular";
+			    font-family: "lato", Arial;
+			    font-weight: normal;
 			    margin-top: 20px;
 			}
 		}
@@ -747,7 +766,8 @@ $image_dir: '../img/';
 			label
 			{
 				font-weight: 100;
-			    font-family: 'latoregular';
+			    font-family: 'lato', Arial;
+			    font-weight: normal;
 			    color: $white;
 			    font-size: 18px;
 			    margin-left: 22px;
@@ -765,14 +785,16 @@ $image_dir: '../img/';
 			.form-control 
 			{
 				height: 40px;
-				font-family: 'latoregular';
+				font-family: 'lato', Arial;
+				font-weight: normal;
 				font-size: 18px;
 				border: none;
 			}
 			.price
 			{
 				font-weight: 100;
-			    font-family: 'latoregular';
+			    font-family: 'lato', Arial;
+			    font-weight: normal;
 			    font-size: 18px;
 			    height: 40px;
 			    width: 150px;
@@ -828,7 +850,8 @@ $image_dir: '../img/';
 			    height: 60px;
 			    border: none;
 				@include gradient(-90deg, #3d0ed1, #239ae3); 
-				font-family: 'latomedium';
+				font-family: 'lato', Arial;
+				font-weight: 500;
 				font-size: 20px;
 				color: #fff;  
 				z-index: 4;
@@ -858,7 +881,8 @@ $image_dir: '../img/';
 		}
 		p
 		{
-			font-family: 'latoregular';
+			font-family: 'lato', Arial;
+			font-weight: normal;
 		    color: #fff;
 		    font-size: 12px;
 		}
@@ -867,7 +891,8 @@ $image_dir: '../img/';
 	{
 		p
 		{
-			font-family: 'latoregular';
+			font-family: 'lato', Arial;
+			font-weight: normal;
 		    color: #fff;
 		    font-size: 18px;
 		}
